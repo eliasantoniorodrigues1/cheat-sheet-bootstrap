@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS v3.3.7-->
+  <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Bootstrap Cheat Sheet</title>
+  <!--Bootstrap-->
+  <style>
+    .navbar{
+      margin-bottom: 0;
+      border-radius: 0;
+
+    }
+  </style>
+</head>
+
+<body>
+  <!--NAV BAR-->
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Bootstrap CheatSheet</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!--JUMBOTRON-->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome To My website</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, voluptates.</p>
+        <a href="#" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+  
+    <!--TYPOGRAPHY-->
+  <div class="container">
+    <div class="page-header">
+      <h1>Example page header <small>Subtext for header</small></h1>
+    </div>
+    <h1 class="page-header">Hello, world! <small>Secondary Text</small></h1>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, et deleniti. Nulla debitis
+      repellendus suscipit tempora ratione ea laborum iste pariatur modi ipsam. Facilis facere deleniti reprehenderit
+      consectetur est aspernatur a nemo possimus, molestiae ad suscipit at repudiandae? Minus ut voluptatibus, quam
+      adipisci asperiores molestiae esse laudantium! Iusto iure, cupiditate voluptatem harum sit facere, repellendus
+      possimus nihil saepe rem mollitia est? Dignissimos unde vero, tenetur quod suscipit temporibus iste quidem soluta
+      esse ipsam quis rem quisquam molestias quasi nobis sed, natus dolorum omnis nesciunt voluptates explicabo eaque
+      animi amet. Officia quidem assumenda architecto vel laudantium, dicta sequi quaerat voluptatibus. Natus,
+      necessitatibus cupiditate dolorem mollitia tenetur doloremque voluptas voluptate praesentium consectetur ullam?
+      Vero hic totam vitae dolorum, dicta rem sit odio ad doloremque, aut dolore neque reprehenderit veniam eligendi
+      tempore? Eaque vel quisquam recusandae sed est dicta illo, inventore, explicabo error aperiam totam odio eligendi
+      doloribus accusamus voluptate, consectetur architecto quibusdam alias natus? Blanditiis repellendus illum maiores
+      tempore nulla libero culpa repellat totam, eum quos officiis accusantium quis in alias facere esse praesentium
+      ipsam eaque minus voluptates magnam assumenda doloremque magni. Quas enim aperiam maiores voluptates sequi facilis
+      dignissimos iusto magnam accusantium non odio necessitatibus quia ullam quasi voluptatum, qui magni.</p>
+    <p><mark>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</mark> <del>Officiis</del> autem nam
+      <u>perferendis</u> unde explicabo aliquid earum nulla? Minima tempore vitae corporis, ut amet deleniti voluptatum
+      iste repellendus dolorem inventore provident explicabo temporibus incidunt tenetur nobis quia quam doloribus
+      libero accusamus praesentium. Vitae dignissimos, illo corporis pariatur aspernatur adipisci eligendi magnam!
+    </p>
+
+    <hr>
+    <!-- ALIGMENT-->
+    <p class="text-left text-lowercase">Left aligned text.</p>
+    <p class="text-center">Center aligned text.</p>
+    <p class="text-right text-capitalize">Right aligned text.</p>
+    <p class="text-justify">Justify aligned text.</p>
+    <p class="text-nowrap">No wrap text.</p>
+
+
+    <!-- QUICK FLOATS-->
+    <div class="pull-right">Div floated to right</div><br>
+    <div class="pull-left">This text is on the right.</div><br>
+
+    <!--CLEAR FLOAT-->
+    <div class="clearfix"></div>
+
+    <hr>
+
+    <!--BLOCKQUOTE-->
+    <blockquote class="blockquote-reverse">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium saepe quasi ipsa quos eum asperiores
+        facere molestias officia iure quo? Provident vero quo fugit cupiditate, quas exercitationem numquam est
+        corporis.</p>
+      <footer>Quoted by<cite>"John Doe</cite>John Doe</footer>
+    </blockquote>
+
+    <hr>
+
+    <!--LIST-->
+    <ul class="list-unstyled">
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+      <li>Item Four</li>
+    </ul>
+
+    <ul class="list-inline">
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+      <li>Item Four</li>
+    </ul>
+
+
+    <!--CODE-->
+    <code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
+    <br>
+    Change directory with<kbd>cd</kbd>
+    <br>
+    To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,<kbd></kbd>
+
+        <hr>
+
+        <!--CONTEXTUAL COLORS-->
+        <p class="text-primary">Hello World</p>
+        <p class="text-success">Hello World</p>
+        <p class="text-info">Hello World</p>
+        <p class="text-warning">Hello World</p>
+        <p class="text-danger">Hello World</p>
+        <p class="text-muted">Hello World</p>
+
+        <!--CONTEXTUAL BACKGROUND COLORS-->
+        <p class="bg-primary">Hello World</p>
+        <p class="bg-success">Hello World</p>
+        <p class="bg-info">Hello World</p>
+        <p class="bg-warning">Hello World</p>
+        <p class="bg-danger">Hello World</p>
+        <p class="bg-muted">Hello World</p>
+
+        <hr>
+
+        <div class="container">
+          <!--BUTTONS-->
+          <button class="btn btn-default">Default</button>
+          <a href="a" class="btn btn-default" role="button">Link</a>
+          <input type="submit" class="btn btn-default" value="submit"><br>
+
+          <hr>
+
+          <!--CONTEXTUAL BUTTONS-->
+          <button class="btn btn-default">Default</button>
+          <button class="btn btn-primary">Primary</button>
+          <button class="btn btn-success">Success</button>
+          <button class="btn btn-info">Info</button>
+          <button class="btn btn-warning">Warning</button>
+          <button class="btn btn-danger">Danger</button>
+          <button class="btn btn-link">Link</button><br>
+
+          <hr>
+
+          <!--BUTTON SIZES-->
+          <button class="btn btn-default">Default</button>
+          <button class="btn btn-default btn-lg">Large</button>
+          <button class="btn btn-default btn-sm">Small</button>
+          <button class="btn btn-default btn-xs">Extra Small</button>
+          <button class="btn btn-default btn-xs" disabled="disabled">Extra Small</button>
+        </div>
+
+        <hr>
+        <!--FORMS-->
+        <div class="container">
+          <form>
+            <div class="form-group">
+              <label style="color: black">Name</label>
+              <input type="text" class="form-control" placeholder="Add Name">
+            </div>
+
+            <div class="form-group">
+              <label style="color: black">Email</label>
+              <input type="email" class="form-control" placeholder="Add Email">
+            </div>
+
+            <div class="form-group">
+              <label style="color: black">Message</label>
+              <textarea class="form-control" placeholder="Add Message"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label>Sexo</label>
+              <select class="form-control">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label style="color: black">Upload File</label>
+              <input type="file">
+              <p class="help-block">Only png and jpg allowed</p>
+            </div>
+
+            <div class="checkbox">
+              <label style="color: black">
+                <input type="checkbox">Check me out
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+
+          <hr>
+          <!--INLINE FORM-->
+          <form class="form-inline">
+            <div class="form-group">
+              <label style="color: black">Email</label>
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+
+            <div class="form-group">
+              <label style="color: black">Password</label>
+              <input type="password" class="form-control" placeholder="Password">
+            </div>
+
+            <div class="checkbox">
+              <label style="color: black">
+                <input type="checkbox">Remember me
+              </label>
+              <button type="submit" class="btn btn-default">Login</button>
+            </div>
+          </form>
+
+        </div>
+
+        <hr>
+
+        <!--TABLES-->
+        <div class="container" style="color:black">
+          <table class="table table">
+            <tr>
+              <th>Firstname</th>
+              <th>Lasname</th>
+              <th>Age</th>
+            </tr>
+            <tr class="danger">
+              <th>Jill</th>
+              <th>Smith</th>
+              <th>50</th>
+            </tr>
+            <tr>
+              <th>Evec</th>
+              <th>Jackson</th>
+              <th>24</th>
+            </tr>
+          </table>
+
+          <hr>
+
+          <table class="table table-striped">
+            <tr>
+              <th>Firstname</th>
+              <th>Lasname</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <th>Jill</th>
+              <th>Smith</th>
+              <th>50</th>
+            </tr>
+            <tr>
+              <th>Evec</th>
+              <th>Jackson</th>
+              <th>24</th>
+            </tr>
+          </table>
+
+          <table class="table table-bordered">
+            <tr>
+              <th>Firstname</th>
+              <th>Lasname</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <th>Jill</th>
+              <th>Smith</th>
+              <th>50</th>
+            </tr>
+            <tr>
+              <th>Evec</th>
+              <th>Jackson</th>
+              <th>24</th>
+            </tr>
+          </table>
+
+          <table class="table table-condensed">
+            <tr>
+              <th>Firstname</th>
+              <th>Lasname</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <th>Jill</th>
+              <th>Smith</th>
+              <th>50</th>
+            </tr>
+            <tr>
+              <th>Evec</th>
+              <th>Jackson</th>
+              <th>24</th>
+            </tr>
+          </table>
+
+          <table class="table table-hover">
+            <tr>
+              <th>Firstname</th>
+              <th>Lasname</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <th>Jill</th>
+              <th>Smith</th>
+              <th>50</th>
+            </tr>
+            <tr>
+              <th>Evec</th>
+              <th>Jackson</th>
+              <th>24</th>
+            </tr>
+          </table>
+        </div>
+
+        <hr>
+        <!--LIST GROUP-->
+        <div class="container" style="color: black">
+          <ul class="list-group">
+            <li class="list-group-item">Item One</li>
+            <li class="list-group-item">Item Two</li>
+            <li class="list-group-item">Item Three</li>
+            <li class="list-group-item">Item Four</li>
+          </ul>
+        </div>
+
+        <div class="container">
+          <a href="a" class="list-group-item active">Item One</a>
+          <a href="a" class="list-group-item">Item Two</a>
+          <a href="a" class="list-group-item list-group-item-success">Item Three</a>
+          <a href="a" class="list-group-item disabled">Item Four</a>
+        </div>
+        
+        <hr>
+
+        <!--PAINELS-->
+        <div class="container" style="color: black">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Panel title</h3>
+              </div>
+              <div class="panel-body">
+                Panel Content
+              </div>
+              <div class="panel-footer">Panel footer</div>
+            </div>
+
+          <!--WELLS-->
+         <hr>
+            <div class="well">Hello World</div>
+            <div class="well well-lg">Hello World</div>
+            <div class="well well-sm">Hello World</div>
+          
+        
+        <hr>
+
+          <!--ALERTS-->
+            <div class="alert alert-sucess" role="alert">A success alert</div>
+            <div class="alert alert-info" role="alert">An info alert</div>
+            <div class="alert alert-warning" role="alert">A warning alert</div>
+            <div class="alert alert-danger" role="alert">A danger alert</div>
+            
+            <!--ALERT WITH SIGN TO CLOSE-->
+            <div class="alert alert-warning alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+                You can close this alert
+            </div>
+
+
+        </div>
+        
+        <hr>
+
+        <!--PROGRESS BARS-->
+        <div class="progress">
+          <div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 50%;">
+              50%
+          </div>
+        </div>
+
+        <hr>
+
+        <!--lABELS-->
+        <div class="container">
+          <span class="label label-default">Default</span>
+          <h1>Hello<span class="label label-primary">Primary</span></h1>
+          <span class="label label-success">Success</span>
+          <span class="label label-info">Info</span>
+          <span class="label label-warning">Warning</span>
+          <span class="label label-danger">Danger</span>
+        </div>
+
+        <hr>
+        
+        <!--BADGES-->
+        <div class="container">
+           <a href="#">Inbox <span class="badge">50</span></a>
+
+          <button class="btn btn-primary" type="button">
+            Messages <span class="badge">2</span>
+          </button>
+        </div>
+
+        <hr>
+
+        <!--IMAGES-->
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+              <img src="http://source.unsplash.com/random/200x120" alt="...">
+            </a>
+          </div>
+          ...
+        </div>
+
+        <hr>
+
+        <div class="container">
+          <img class="thumbnail" src="http://source.unsplash.com/random/200x120" alt="">
+          <img class="img-rounded" src="http://source.unsplash.com/random/200x120" alt="">
+          <img class="img-circle" src="http://source.unsplash.com/random/200x120" alt="">
+        </div>
+
+        <hr>
+
+        <!--GRIDS-->
+        <div class="container" style="color: black">
+          <div class="row">
+            <div class="col-md-8 col-sm-8 col-xs-8">
+              <p>ipsum dolor sit amet consectetur adipisicing elit. Voluptates accusamus laudantium amet eligendi qui et fuga assumenda ex porro quia? Distinctio eveniet qui nihil ratione, dicta sit! Voluptatem nulla fugiat ab unde placeat porro odio distinctio voluptate incidunt, maiores ratione suscipit sit iusto alias earum itaque sapiente debitis fuga cum!</p>
+            </div>
+            <div class="col-md-4">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ex fuga ab dolor beatae impedit id deleniti, sunt quo temporibus.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3">
+              <p>ipsum dolor sit amet consectetur adipisicing elit. Voluptates accusamus laudantium amet eligendi qui et fuga assumenda ex porro quia? Distinctio eveniet qui nihil ratione, dicta sit! Voluptatem nulla fugiat ab unde placeat porro odio distinctio voluptate incidunt, maiores ratione suscipit sit iusto alias earum itaque sapiente debitis fuga cum!</p>
+            </div>
+            <div class="col-md-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ex fuga ab dolor beatae impedit id deleniti, sunt quo temporibus.</p>
+            </div>
+            <div class="col-md-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ex fuga ab dolor beatae impedit id deleniti, sunt quo temporibus.</p>
+            </div>
+
+            <div class="col-md-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ex fuga ab dolor beatae impedit id deleniti, sunt quo temporibus.</p>
+            </div>
+          </div>
+
+          <!--12 ROWS-->
+          <div class="row">
+            <div class="col-md-1">
+              <h3>Box</h3>
+            </div>
+            <div class="col-md-1">
+              <h3>Box</h3>
+            </div>
+            <div class="col-md-1">
+              <h3>Box</h3>
+            </div>
+            <div class="col-md-1">
+              <h3>Box</h3>
+            </div>
+            <div class="col-md-1">
+              <h3>Box</h3>
+            </div>
+            <div class="col-md-1">
+              <h3>Box</h3>
+            </div>
+            <div class="col-md-1">
+              <h3>Box</h3>
+            </div>
+            <div class="col-md-1">
+              <h3>Box</h3>
+            </div>
+            <div class="col-md-1">
+              <h3>Box</h3>
+            </div>
+            <div class="col-md-1">
+              <h3>Box</h3>
+            </div>
+            <div class="col-md-1">
+              <h3>Box</h3>
+            </div>
+            <div class="col-md-1">
+              <h3>Box</h3>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div style="height: 400px;"></div>
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script> 
+</body>
+
+</html>
